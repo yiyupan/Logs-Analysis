@@ -26,7 +26,7 @@ In the Python program, three functions were constructed:
 
 ## II. Run the Code
 #### Step 1: DOWNLOAD DATA
-  - Download and install[Vagrant](https://www.vagrantup.com/downloads.html) and [Virtualbox](https://www.virtualbox.org/wiki/Downloads) on your computer.
+  - Download and install [Vagrant](https://www.vagrantup.com/downloads.html) and [Virtualbox](https://www.virtualbox.org/wiki/Downloads) on your computer.
   - Download and install [the Vafrantfile](https://github.com/yiyupan/fullstack-nanodegree-vm), where _news_ database has been already set.
   - Download and unzip the `newsdata.zip` folder to get the file `newsdata.sql`. Move this file and the `newsdatadb.py` file into `vagrant` directory which is shared with your virtual machine.
 #### Step 2: LOG INTO VIRTUAL MACHINE
