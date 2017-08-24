@@ -11,7 +11,8 @@ In the Python program, three functions were constructed:
 
 ## Run the Code
 #### Step 1: DOWNLOAD DATA
-First of all, download `FSND-Virtual-Machine` file, where `news database` has been already set.
+Download and unzip the `FSND-Virtual-Machine.zip` folder, where `news database` has been already set.
+Download and unzip the `newsdata.zip` folder to get the file `newsdata.sql`. Move this file into `vagrant` directory which is shared with your virtual machine.
 #### Step 2: LOG INTO VIRTUAL MACHINE
 Open up the `vagrant` directory. To use the command `vagrant up` to bring the virtual machine back online, and log into it with `vagrant ssh`.
 #### Step 3: LOAD DATABASE
