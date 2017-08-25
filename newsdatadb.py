@@ -1,23 +1,9 @@
+#!/usr/bin/env python
 #!/usr/bin/env python3
 
 import psycopg2
 
 DBNAME = "news"
-
-
-def db_connect():
-    """ Creates and returns a connection to the database defined by DBNAME,
-        as well as a cursor for the database.
-
-        Returns:
-            db, c - a tuple. The first element is a connection to the database.
-                    The second element is a cursor for the database.
-    """
-
-    db = psycopg2.connect(database=DBNAME)
-    c = db.cursor()
-    db_c = (db, c)
-    return db_c
 
 
 def execute_query(query):
@@ -31,9 +17,8 @@ def execute_query(query):
     """
 
     try:
-        db_c = db_connect()
-        db = db_c[0]
-        c = db_c[1]
+        db = psycopg2.connect(database=DBNAME)
+        c = db.cursor()
         c.execute(query)
         res = c.fetchall()
         db.close()
