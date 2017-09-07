@@ -11,7 +11,7 @@ In this project, a Python program was built as a reporting tool in which **psyco
   3. Table **log** with columns *path*, *ip*, *method*,*status*, *time*, *id*:
     - Primary key: *id*.
     
-#### Tasks of the prject
+#### Tasks of the project
 Here are three questions the reporting tool should answer:
   1. __What are the most popular three articles of all time?__ Which articles have been accessed the most? Present this information as a sorted list with the most popular article at the top.
   2. __Who are the most popular article authors of all time?__ That is, when you sum up all of the articles each author has written, which authors get the most page views? Present this as a sorted list with the most popular author at the top.
