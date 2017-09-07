@@ -2,7 +2,7 @@
 
 ## I. Design of Code
 #### Description of the project
-In this project, a Python program was built as a reporting tool in which **psycopg2** moudule was used to connect the database which is a PostgreSQL database for a fictional news website. This _news_ database contains three tables as follows:
+In this project, a Python program was built as a reporting tool in which **psycopg2** module was used to connect the database which is a PostgreSQL database for a fictional news website. This _news_ database contains three tables as follows:
   1. Table **articles** with columns *author*, *title*, *slug*, *lead*, *body*, *time* and *id*:
     - Primary key: *id*;
     - Foreign key: *author*, references Table **authors**(*id*).
